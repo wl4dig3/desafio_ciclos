@@ -42,14 +42,14 @@ function ejercicio2(){
     }
 }
 
-// Ejercicio 3 
+    // Ejercicio 3 
 function ejercicio3(){
     let notasMat = +prompt('Ingresa el promedio de notas Matematicas');
     let notasFisica = +prompt('Ingresa el promedio de notas Fisica')
-}   let notasCiencias = +prompt('Ingresa el promedio de notas de Ciencias',)
+    let notasCiencias = +prompt('Ingresa el promedio de notas de Ciencias',)
     let promedio = (notasMat + notasFisica + notasCiencias) / 3;
     alert(Math.round(promedio));
-
+}    
     // Ejercicio 4 
     // se hacen dos arreglos, uno para cantidad y otro para los nombre de fruta que el usuario ingrese
     // se hace un forEach para cantidad y otro para frutas
@@ -66,15 +66,15 @@ function ejercicio3(){
             }
         });
     }
-
+        // Ejercicio 5 
     function ejercicio5(){
         let name = prompt('Hola, cómo te llamas','');
         let vocales = ["a", "e", "i", "o", "u"];
-        let nombre2 = nombre.split('');
+        let name2 = name.split('');
         let vocalesNum = 0;
         let consonantes = 0;
         
-        nombre2.forEach(letra => {
+        name2.forEach(letra => {
         vocales.includes(letra) ? vocalesNum++ :
             consonantes++;
         });
